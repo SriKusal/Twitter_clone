@@ -67,7 +67,7 @@ export default function Home() {
       </div>
       {userInfo && (
         <div className="p-5 text-center border-t border-twitterBorder">
-          <button onClick={logout} className="bg-twitterWhite text-black px-5 py-2 rounded-full">Logout</button>
+          <button onClick={logout} className="bg-twitterWhite text-black px-5 py-2 rounded-full">logout</button>
         </div>
       )}
     </Layout>
